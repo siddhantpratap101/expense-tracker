@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense-tracker</title>
+</head>
+
+<body>
+    <h1>Track Your Expenses</h1>
+    <div class="expense-wrapper">
+        <div class="your-balance">
+            <h3>YOUR BALANCE</h3>
+            <div class="total-balance">$260.00</div>
+        </div>
+        <div class="income-expense">
+            <table>
+                <tbody>
+                    <tr>
+                        <span style="color: green">INCOME <br> $500.00 </span>
+                    </tr>
+                    <div class="vl"></div>
+                    <tr>
+                        <span style="color:red">EXPENSE <br> $240.00</span>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="history">History
+            <hr> {history}
+        </div>
+        <div class="add-new-transaction">Add new transaction
+            <hr> <input type="text" placeholder="Enter text...">
+        </div>
+        <div class="amount">Amount <br> (negative-expense,positive-income) <br> <input type="text"
+                placeholder="Enter amount..."> </div>
+        <button>Add transaction </button>
+    </div>
+    <footer>&#169 SID 2022</footer>
+</body>
+
+</html>
